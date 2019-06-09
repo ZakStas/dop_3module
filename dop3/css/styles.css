@@ -1,0 +1,78 @@
+body {
+    font-family: "Playfair Display", serif;
+    margin-bottom: 70px;
+}
+
+header {
+    background-color: rgb(95, 52, 136);
+    height: 100px;
+}
+
+.site-navigation a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: 700;
+}
+
+ul.site-navigation {
+    padding-inline-start: 0px;
+}
+nav {
+    text-align: center;
+    padding: 40px;
+}
+.site-navigation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.site-navigation li { 
+   display: inline-block;
+   margin-right: 30px;
+}
+.site-navigation li:last-child {
+    margin-right: 0;
+}
+ a:hover { 
+     color:black; 
+}
+
+.article {
+    width: 470px;
+    margin: 0 auto;
+}
+article {
+    padding: 20px 20px 20px 20px;
+}
+
+h3 {
+    color: rgb(80, 75, 75);
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+}
+h2 {
+    color: rgb(109, 94, 94);
+    font-size: 30px;
+    text-align: left;
+}
+p {
+    color: #626262;
+    font-size: 14px;
+    text-align: left;
+}
+.section {
+    display: inline-block;
+    width: 480px;
+    padding: 0;
+    margin-right: 40px;
+    font-size: 0;
+    text-align: left;
+    }
+.main {
+    list-style: none;
+}
